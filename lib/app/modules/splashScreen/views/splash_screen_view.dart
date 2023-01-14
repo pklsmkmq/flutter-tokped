@@ -55,7 +55,7 @@ class SplashScreenView extends GetView<SplashScreenController> {
             width: lebar,
             height: tinggi * 0.08,
             child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.toNamed("/register-screen"),
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.white),
                 child: Text(
                   "Join Now",

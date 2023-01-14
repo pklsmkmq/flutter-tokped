@@ -164,7 +164,7 @@ class LoginScreenView extends GetView<LoginScreenController> {
                   Text("Don’t have an account ?",
                       style: TextStyle(fontSize: 18, color: subJudul)),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () => Get.toNamed("/register-screen"),
                       child: Text("Sign Up",
                           style: TextStyle(fontSize: 18, color: bgLogin2)))
                 ]),
